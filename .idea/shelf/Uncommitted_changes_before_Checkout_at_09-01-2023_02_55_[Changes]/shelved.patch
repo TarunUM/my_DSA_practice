@@ -1,0 +1,94 @@
+Index: src/Leet/DP/ClimbingStairs.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Leet;\r\n//https://leetcode.com/problems/climbing-stairs/description/\r\npublic class ClimbingStairs {\r\n    public static void main(String[] args) {\r\n        System.out.println(climbStairs(45));\r\n    }\r\n    public static int climbStairs(int n) {\r\n        // Bottom-IP Approach\r\n        int one_step = 1;\r\n        int two_step = 1;\r\n\r\n        // Since we already have two steps ways we have to iterate  n-2 time n loop\r\n        // Which gives us sum of prev two elements i.e. ways to climb from that position\r\n        for (int i = 0; i < n-1; i++) {\r\n            int temp = one_step;\r\n            one_step = one_step + two_step;\r\n            two_step = temp;\r\n        }\r\n        return one_step;\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/Leet/DP/ClimbingStairs.java b/src/Leet/DP/ClimbingStairs.java
+--- a/src/Leet/DP/ClimbingStairs.java	
++++ b/src/Leet/DP/ClimbingStairs.java	
+@@ -1,4 +1,4 @@
+-package Leet;
++package Leet.DP;
+ //https://leetcode.com/problems/climbing-stairs/description/
+ public class ClimbingStairs {
+     public static void main(String[] args) {
+Index: src/Leet/DP/HouseRobber.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Leet.DP;public class HouseRobber {\r\n}\r\n
+===================================================================
+diff --git a/src/Leet/DP/HouseRobber.java b/src/Leet/DP/HouseRobber.java
+--- a/src/Leet/DP/HouseRobber.java	
++++ b/src/Leet/DP/HouseRobber.java	
+@@ -1,2 +1,24 @@
+-package Leet.DP;public class HouseRobber {
++package Leet.DP;
++//https://leetcode.com/problems/house-robber/
++
++public class HouseRobber {
++    public static void main(String[] args) {
++        int[] nums = {2,7,9,3,1};
++        System.out.println(rob(nums));
++    }
++
++    // ************ IMPORTANT ***************
++    // Most of the DP Questions are built on this basis
++    public static int rob(int[] nums) {
++        int rob1 = 0, rob2=0;
++
++        for (int n: nums) {
++//            Either My Current Sum is maximum or my prev position [i-1] Sum is max
++            int temp = Math.max(n+ rob1, rob2);
++            rob1 =rob2;
++            rob2 = temp;
++        }
++//        At the end of the loop rob2 contains the whole max sum of the array
++        return rob2;
++    }
+ }
+Index: src/Leet/DP/CoinChange.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Leet.DP;public class CoinChange {\r\n}\r\n
+===================================================================
+diff --git a/src/Leet/DP/CoinChange.java b/src/Leet/DP/CoinChange.java
+--- a/src/Leet/DP/CoinChange.java	
++++ b/src/Leet/DP/CoinChange.java	
+@@ -1,2 +1,36 @@
+-package Leet.DP;public class CoinChange {
++package Leet.DP;
++//https://leetcode.com/problems/coin-change/submissions/
++
++public class CoinChange {
++    //Top
++    public static void main(String[] args) {
++        int[] coins = {1,3,4,5};
++        int amount = 7;
++        System.out.println(coinChange(coins, amount));
++    }
++
++    // TIme complexity is O(amount * len(coins)) & Space Auxiliary Complexity = O(Amount)
++    public static int coinChange(int[] coins, int amount) {
++        int minvalue = amount+1;
++        int[] dp = new int[amount+1];
++
++        for (int i = 1; i < amount+1; i++) {
++            dp[i] = amount+1;
++        }
++
++        //0th target needs 0 steps
++        dp[0] = 0;
++
++        for (int i = 1; i < amount+1; i++) {
++            for (int coin: coins) {
++                if (i-coin >= 0){
++                    dp[i] = Math.min(dp[i], 1 + dp[i-coin]);
++                }
++            }
++        }
++        if(dp[amount] != amount+1){
++            return dp[amount];
++        }
++        return -1;
++    }
+ }
