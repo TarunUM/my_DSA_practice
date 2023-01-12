@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/sorts/QuickSort.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Merge and Quick Sorting">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubSet_SubSequence_String/BasicSubSequesnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubSet_SubSequence_String/SkipACharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubSet_SubSequence_String/SkipStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/DP/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet/DP/LongestIncreasingSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +45,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.DP.CoinChange" />
+  <component name="RunManager" selected="Application.BasicSubSequesnce">
+    <configuration name="BasicSubSequesnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SubSet_SubSequence_String.BasicSubSequesnce" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.DP.HouseRobber" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leet.DP.*" />
+          <option name="PATTERN" value="Recursion.SubSet_SubSequence_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion.sorts.InPlaceMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.sorts.InPlaceMergeSort" />
+    <configuration name="SkipACharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SubSet_SubSequence_String.SkipACharacter" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.sorts.*" />
+          <option name="PATTERN" value="Recursion.SubSet_SubSequence_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SkipStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SubSet_SubSequence_String.SkipStrings" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.SubSet_SubSequence_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicSubSequesnce" />
+        <item itemvalue="Application.SkipStrings" />
+        <item itemvalue="Application.SkipACharacter" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.HouseRobber" />
-        <item itemvalue="Application.Recursion.sorts.InPlaceMergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673127984734</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge and Quick Sorting">
+      <created>1673373076544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673373076544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,5 +150,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge and Quick Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge and Quick Sorting" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_DSA_practice$BasicSubSequesnce.ic" NAME="BasicSubSequesnce Coverage Results" MODIFIED="1673378600285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Recursion.SubSet_SubSequence_String.*</FILTER>
+    </SUITE>
   </component>
 </project>
