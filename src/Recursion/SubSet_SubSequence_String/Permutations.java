@@ -36,6 +36,7 @@ public class Permutations {
             return list;
         }
 
+        // local to this call
         ArrayList<String> ans = new ArrayList<>();
 
         int size = p.length();
