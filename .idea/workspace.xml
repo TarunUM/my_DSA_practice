@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Permutations And Leet">
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/BackTrackMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/MazeProb.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="backtracking">
+      <change afterPath="$PROJECT_DIR$/src/BackTracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/AnsCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/CombinationSum39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/CombinationSumII40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/GenerateParentheses22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/NQueens51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/NQueensII52.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/Permutations46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/PermutationsII47.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +56,9 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BackTrackMain">
-    <configuration name="BackTrackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackTracking.BackTrackMain" />
+  <component name="RunManager" selected="Application.Permutations46">
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackTracking.NQueens" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
@@ -63,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.FindMinimumInRotatedSortedArray" />
+    <configuration name="NQueens51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet.BackTracking.NQueens51" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.*" />
+          <option name="PATTERN" value="Leet.BackTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeProb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackTracking.MazeProb" />
+    <configuration name="NQueensII52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet.BackTracking.NQueensII52" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
+          <option name="PATTERN" value="Leet.BackTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.SumOfTwoNumbers" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SubSet_SubSequence_String.Permutations" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.*" />
+          <option name="PATTERN" value="Recursion.SubSet_SubSequence_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.ThreeSum" />
+    <configuration name="Permutations46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet.BackTracking.Permutations46" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.*" />
+          <option name="PATTERN" value="Leet.BackTracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BackTrackMain" />
-        <item itemvalue="Application.MazeProb" />
-        <item itemvalue="Application.SumOfTwoNumbers" />
-        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
-        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.Permutations46" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.NQueensII52" />
+        <item itemvalue="Application.NQueens51" />
+        <item itemvalue="Application.NQueens" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673983552090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="backtracking">
+      <created>1674134681955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674134681955</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +194,8 @@
     <MESSAGE value="Merge and Quick Sorting" />
     <MESSAGE value="Permutations" />
     <MESSAGE value="Permutations And Leet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Permutations And Leet" />
+    <MESSAGE value="backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
