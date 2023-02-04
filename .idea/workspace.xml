@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="backtracking">
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/AnsCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/CombinationSum39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/CombinationSumII40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/GenerateParentheses22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/NQueens51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/NQueensII52.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/Permutations46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/BackTracking/PermutationsII47.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="backtracking and N-Queens">
+      <change afterPath="$PROJECT_DIR$/src/BackTracking/NKnights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/Hourglasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HackerRank/rotateLeftList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/PowofXandN50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/introduction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackTracking/NQueens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/SubSet_SubSequence_String/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/SubSet_SubSequence_String/Permutations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2K12tREaiIbOd0y9FcLd6x5Ki4z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,21 +48,26 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="OOPS.introduction" />
+      <recent name="OOPS" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Permutations46">
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BackTracking.NQueens" />
+  <component name="RunManager" selected="Application.introduction">
+    <configuration name="introduction (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BackTracking.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.BackTracking.NQueens51" />
+    <configuration name="introduction (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.BackTracking.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueensII52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.BackTracking.NQueensII52" />
+    <configuration name="introduction (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.BackTracking.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SubSet_SubSequence_String.Permutations" />
+    <configuration name="introduction (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.SubSet_SubSequence_String.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.BackTracking.Permutations46" />
+    <configuration name="introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet.BackTracking.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Permutations46" />
-        <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.NQueensII52" />
-        <item itemvalue="Application.NQueens51" />
-        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.introduction" />
+        <item itemvalue="Application.introduction (5)" />
+        <item itemvalue="Application.introduction (4)" />
+        <item itemvalue="Application.introduction (3)" />
+        <item itemvalue="Application.introduction (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674134681955</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="backtracking and N-Queens">
+      <created>1674306035932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674306035932</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +207,8 @@
     <MESSAGE value="Permutations" />
     <MESSAGE value="Permutations And Leet" />
     <MESSAGE value="backtracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="backtracking" />
+    <MESSAGE value="backtracking and N-Queens" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtracking and N-Queens" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -211,6 +224,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_DSA_practice$BasicSubSequesnce.ic" NAME="BasicSubSequesnce Coverage Results" MODIFIED="1673378600285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -34,7 +34,8 @@ public class NQueens {
     private static boolean isSafe(boolean[][] board, int row, int col) {
         for (int i = 0; i < row; i++) {
             if(board[i][col]){
-                return false;
+                return false
+                        ;
             }
         }
 

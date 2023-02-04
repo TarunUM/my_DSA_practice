@@ -11,6 +11,7 @@ public class Permutations {
 //            ans = ans * i;
 //        }
 //        System.out.println(ans);
+        System.out.println(ans.get(1));
     }
 
 //    p=Processed and up = unProcessed
