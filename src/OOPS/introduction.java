@@ -7,28 +7,28 @@ public class introduction {
         // Basic data type
         int[] number = new int[5];
 
-        // Creating our own datatype i.e.
-        // Creating Object in by giving some rules i.e.
-        // ex. defining primitives datatype inside the class
+        /* Creating our own datatype i.e.
+         Creating Object in by giving some rules i.e.
+         ex. defining primitives datatype inside the class */
 
         Student[] students = new Student[5];
 
-        //just declaring
+        //just declaring Object
         Student tarun = new Student();
 
-        // it can be achieved By Default Constructor.
+        /* it can be achieved By Default Constructor. */
 //        tarun.rollno = 10;
 //        tarun.name = "Tarun M";
 
-        // Getting values from Objects and printing values
+        /* Getting values from Objects and printing values */
 //        System.out.println(tarun.rollno);
 //        System.out.println(tarun.name);
 //        System.out.println(tarun.marks);
 
-        // new Student();
-        // "new" is used to allocate memory dynamically.
-        // Constructor is special type of function
-        // this "Student()" is the constructor.
+        /* new Student();
+         "new" is used to allocate memory dynamically.
+         Constructor is special type of function
+         this "Student()" is the constructor. */
 
         // create a new student using Special Constructor.
         Student student2 = new Student(86, "Superhero", 90.0f);
@@ -39,6 +39,16 @@ public class introduction {
 
         Student student3 = new Student(tarun);
         student3.print();
+
+        students[0] = tarun;
+        students[1] = student2;
+        students[2] = student3;
+//        for(Student object : students){
+//            if(object != null){
+//                object.print();
+//            }
+//        }
+
 
     }
 
@@ -56,10 +66,9 @@ public class introduction {
             // "this" is Keyword used to manipulate objects individually.
             this.rollno = 10;
             this.name = "Tarun M";
-        }
 
-        void greetings(){
-            System.out.println("Hello World "+this.name);
+            /* --- OR we can use the below statement --- */
+            // this(10, "Default Name ", 86.28f)
         }
 
 
@@ -77,11 +86,16 @@ public class introduction {
             name = other.name; // it changes values but it's a bad practice
         }
 
+        // these are all properties inside class
         void print(){
             System.out.println("------------------------------------");
             System.out.println("rNo. --- name --- marks");
             System.out.println(this.rollno + " --- " + this.name + " --- " + this.marks);
             System.out.println("------------------------------------");
+        }
+
+        void greetings(){
+            System.out.println("Hello World "+this.name);
         }
 
     }
