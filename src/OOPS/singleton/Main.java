@@ -7,6 +7,8 @@ public class Main {
         SingletonClass obj2 = SingletonClass.getInstance(6);
         SingletonClass obj3 = SingletonClass.getInstance(7);
 
+        // all 3 reference variables are pointing same object
+
         System.out.println(obj1.num);
         System.out.println(obj2.num);
         System.out.println(obj3.num);
