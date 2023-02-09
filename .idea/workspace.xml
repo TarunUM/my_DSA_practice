@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Started learning All OOPs Concepts">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/WrapperClassAndFinalAndGarbageCollector.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - Wrappers And GarbageCollectors">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticExamples/InnerClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticExamples/Introduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticExamples/StaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticExamples/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/packages/first/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/packages/second/b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/packages/second/c.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/singleton/SingletonClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/introduction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +63,13 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WrapperClassAndFinalAndGarbageCollector (2)">
-    <configuration name="WrapperClassAndFinalAndGarbageCollector (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.WrapperClassAndFinalAndGarbageCollector" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InnerClasses (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="OOPS.StaticExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassAndFinalAndGarbageCollector (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.WrapperClassAndFinalAndGarbageCollector" />
+    <configuration name="InnerClasses (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="OOPS.StaticExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassAndFinalAndGarbageCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.WrapperClassAndFinalAndGarbageCollector" />
+    <configuration name="InnerClasses (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="OOPS.StaticExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="introduction (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
+    <configuration name="InnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="OOPS.StaticExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,25 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.introduction" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.*" />
+          <option name="PATTERN" value="OOPS.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WrapperClassAndFinalAndGarbageCollector (2)" />
-        <item itemvalue="Application.WrapperClassAndFinalAndGarbageCollector" />
-        <item itemvalue="Application.WrapperClassAndFinalAndGarbageCollector (1)" />
-        <item itemvalue="Application.introduction (1)" />
-        <item itemvalue="Application.introduction" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InnerClasses (3)" />
+        <item itemvalue="Application.InnerClasses (2)" />
+        <item itemvalue="Application.InnerClasses" />
+        <item itemvalue="Application.InnerClasses (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675516524683</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="OOPs - Wrappers And GarbageCollectors">
+      <created>1675525394535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675525394535</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +225,8 @@
     <MESSAGE value="backtracking" />
     <MESSAGE value="backtracking and N-Queens" />
     <MESSAGE value="Started learning All OOPs Concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started learning All OOPs Concepts" />
+    <MESSAGE value="OOPs - Wrappers And GarbageCollectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPs - Wrappers And GarbageCollectors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
