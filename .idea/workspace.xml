@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - Inheritance And Poly-Morphism">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/encapsulation/Main.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - encapsulation And abstraction">
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/EncapsulationAbstraction/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/principles/abstraction/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/principles/encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/principles/EncapsulationAbstraction/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +57,13 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOPS.principles.polymorphism.Main">
-    <configuration name="InnerClasses (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
+  <component name="RunManager" selected="Application.OOPS.principles.EncapsulationAbstraction.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.StaticExamples.*" />
+          <option name="PATTERN" value="OOPS.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.singleton.Main" />
+    <configuration name="OOPS.principles.EncapsulationAbstraction.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.principles.EncapsulationAbstraction.Main" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.singleton.*" />
+          <option name="PATTERN" value="OOPS.principles.EncapsulationAbstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.principles.EncapsulationAbstraction.Main" />
         <item itemvalue="Application.OOPS.principles.polymorphism.Main" />
         <item itemvalue="Application.OOPS.principles.inheritance.Main" />
         <item itemvalue="Application.OOPS.properties.inheritance.basic.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.InnerClasses (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676312079012</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="OOPs - encapsulation And abstraction">
+      <created>1676312760418</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676312760418</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,7 +250,8 @@
     <MESSAGE value="OOPs - Wrappers And GarbageCollectors" />
     <MESSAGE value="OOPs - Packages, Static, Singleton Class, In-built Methods" />
     <MESSAGE value="OOPs - Inheritance And Poly-Morphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOPs - Inheritance And Poly-Morphism" />
+    <MESSAGE value="OOPs - encapsulation And abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOPs - encapsulation And abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
