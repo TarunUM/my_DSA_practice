@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - Packages, Static, Singleton Class, In-built Methods">
-      <change beforePath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/inheritance/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/inheritance/BoxPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/inheritance/BoxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/inheritance/BoxWeight2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/polymorphism/InClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/polymorphism/InGround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/principles/polymorphism/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,47 +63,8 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="InnerClasses (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.StaticExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerClasses (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.StaticExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OOPS.principles.polymorphism.Main">
     <configuration name="InnerClasses (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.StaticExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.StaticExamples.InnerClasses" />
       <module name="My_DSA" />
       <extension name="coverage">
@@ -120,13 +90,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOPS.principles.inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.principles.inheritance.Main" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.principles.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOPS.principles.polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.principles.polymorphism.Main" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.principles.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOPS.properties.inheritance.basic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.properties.inheritance.basic.Main" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.properties.inheritance.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.principles.polymorphism.Main" />
+        <item itemvalue="Application.OOPS.principles.inheritance.Main" />
+        <item itemvalue="Application.OOPS.properties.inheritance.basic.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InnerClasses (3)" />
-        <item itemvalue="Application.InnerClasses (2)" />
-        <item itemvalue="Application.InnerClasses" />
-        <item itemvalue="Application.InnerClasses (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675933922561</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="OOPs - Packages, Static, Singleton Class, In-built Methods">
+      <created>1675933983021</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675933983021</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
