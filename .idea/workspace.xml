@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - encapsulation And abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Leet/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/RemovingStarsFromAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/SortAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/addTwoNumbersLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet/CanPlaceFlowers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlowers (4)">
+  <component name="RunManager" selected="Application.CanPlaceFlowers">
     <configuration name="CanPlaceFlowers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet.CanPlaceFlowers" />
       <module name="My_DSA" />
@@ -103,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CanPlaceFlowers (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CanPlaceFlowers (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet.CanPlaceFlowers" />
       <module name="My_DSA" />
       <extension name="coverage">
@@ -131,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CanPlaceFlowers (4)" />
-        <item itemvalue="Application.CanPlaceFlowers (3)" />
         <item itemvalue="Application.CanPlaceFlowers" />
+        <item itemvalue="Application.CanPlaceFlowers (3)" />
         <item itemvalue="Application.CanPlaceFlowers (2)" />
         <item itemvalue="Application.CanPlaceFlowers (1)" />
+        <item itemvalue="Application.CanPlaceFlowers (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676313526941</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="OOPs - encapsulation And abstraction">
+      <created>1681902329636</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681902329636</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
