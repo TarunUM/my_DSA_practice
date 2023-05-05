@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - encapsulation And abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Leet/Hard/MedianofTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet/MergeTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09-01-2023_02_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09-01-2023_02_55__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "E:/GLWipro/ShopForHome",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tarun/OneDrive/Desktop/my_DSA_practice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2643581&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOPS.introduction" />
@@ -57,33 +65,7 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MedianofTwoSortedArrays">
-    <configuration name="CanPlaceFlowers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.CanPlaceFlowers" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CanPlaceFlowers (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet.CanPlaceFlowers" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeTwoSortedArrays">
     <configuration name="CanPlaceFlowers (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet.CanPlaceFlowers" />
       <module name="My_DSA" />
@@ -123,13 +105,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet.MergeTwoSortedArrays" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Palindrome" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedArrays" />
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.MedianofTwoSortedArrays" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.CanPlaceFlowers (3)" />
-        <item itemvalue="Application.CanPlaceFlowers (2)" />
-        <item itemvalue="Application.CanPlaceFlowers (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +149,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673127984734</updated>
+      <workItem from="1682523576300" duration="138000" />
+      <workItem from="1682523735804" duration="834000" />
+      <workItem from="1682524656508" duration="433000" />
+      <workItem from="1683227386334" duration="2772000" />
+      <workItem from="1683268595141" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -250,6 +263,9 @@
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -282,10 +298,6 @@
           <line>22</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Leet/Hard/MedianofTwoSortedArrays.java</url>
           <line>11</line>

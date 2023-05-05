@@ -9,10 +9,7 @@ public class Palindrome {
 
     static boolean Pdrome(int n){
         int rev = RevNo(n);
-        if( n == rev){
-            return true;
-        }
-        return false;
+        return n == rev;
     }
 
     static int RevNo(int n) {
