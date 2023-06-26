@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="OOPs - encapsulation And abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Leet/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet/WiproQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TempQtns.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="printf method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +161,7 @@
       <workItem from="1687433786234" duration="13000" />
       <workItem from="1687454382808" duration="635000" />
       <workItem from="1687502022099" duration="2036000" />
-      <workItem from="1687756220945" duration="1427000" />
+      <workItem from="1687756220945" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -279,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683269984010</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="printf method">
+      <created>1687759365818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687759365818</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +310,8 @@
     <MESSAGE value="OOPs - Packages, Static, Singleton Class, In-built Methods" />
     <MESSAGE value="OOPs - Inheritance And Poly-Morphism" />
     <MESSAGE value="OOPs - encapsulation And abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOPs - encapsulation And abstraction" />
+    <MESSAGE value="printf method" />
+    <option name="LAST_COMMIT_MESSAGE" value="printf method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
