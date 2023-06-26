@@ -5,7 +5,18 @@ public class Patterns {
 //        Scanner input = new Scanner(System.in);
 //        System.out.print("Enter Input : ");
 //        int n = input.nextInt();
-        pattern20(9);
+//        pattern20(9);
+        int no = 6;
+        for(int i = 0; i < no; i++) {
+            for(int j = 0; j < no; j++) {
+                if(i == 1 && (j == 1 || j == no - 1) || i == no-1 && (j == no - 1 || j ==1)){
+                    System.out.print("#");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println("");
+        }
     }
 
     static void pattern1(int n){
