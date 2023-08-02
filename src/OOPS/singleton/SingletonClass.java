@@ -5,11 +5,7 @@ package OOPS.singleton;
 public class SingletonClass {
     int num = 10;
 
-    private SingletonClass(){
-
-    }
-
-    public SingletonClass(int num) {
+    private SingletonClass(int num) {
         this.num = num;
     }
 
@@ -18,6 +14,7 @@ public class SingletonClass {
     public static SingletonClass getInstance(int n){
         // check whether an obj is created or not
         // if not create one
+        System.out.println(instance);
         if(instance == null){
             instance = new SingletonClass(n);
         }

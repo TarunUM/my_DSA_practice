@@ -53,6 +53,7 @@ public class Main {
         School obj3 = new InGround();
         obj3.status();
         obj3.greeting();
+        System.out.println("---");
         obj3.greeting2();  // greeting2() is static method
 
 //        Static Does not depend on Object

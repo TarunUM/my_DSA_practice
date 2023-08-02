@@ -17,7 +17,8 @@ public class Student {
         this.name = name;
         this.passed = passed;
 
-        Student.greet();
+        greet();
+//        Student.greet();
         // this.greet();
 
         // it directly checks in class template

@@ -28,8 +28,8 @@ public class Introduction {
     void greeting2(){
         System.out.println("Hey greet1");
         greeting();
-        // everything will be static at the i.e. main (for ex.)
-        // so there we will be creating an instance of class, so it runs here.
+        // everything will be static at the end i.e. main (for ex.)
+        // so that we will be creating an instance of class, so it runs here.
     }
 
     static void funGreeting(){

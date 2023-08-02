@@ -2,6 +2,7 @@ package OOPS.singleton;
 
 public class Main {
     public static void main(String[] args) {
+        SingletonClass obj4 = SingletonClass.getInstance(1);
         SingletonClass obj1 = SingletonClass.getInstance(5);
         // after the 1st instance/object is created it is going to return the same reference
         SingletonClass obj2 = SingletonClass.getInstance(6);
