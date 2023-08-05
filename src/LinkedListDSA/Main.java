@@ -41,15 +41,18 @@ public class Main {
 //        System.out.println(dll.getSize());
 
 
-        // Singly Linked List
-//        LL ll = new LL();
-//        ll.addLast(10);
-//        ll.addLast(20);
-//        ll.addFirst(30);
-//        ll.addLast(40);
-//        ll.addLast(50);
-//        ll.add(4, 60);
-//        ll.display();
-//        System.out.println(ll.getValue(2));
+//         Singly Linked List
+        LL ll = new LL();
+        ll.addLast(10);
+        ll.addLast(20);
+        ll.addFirst(30);
+        ll.addLast(40);
+        ll.addLast(50);
+        ll.add(4, 60);
+        ll.addRecursion(6,500);
+        ll.display();
+        ll.reverse();
+        ll.display();
+        ll.size();
     }
 }

@@ -4,78 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="StringToInteger solved">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Hard/MedianofTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/subarrays/ContinuousSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListDSA/CLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListDSA/DLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListDSA/LL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedListDSA/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Cloning/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Cloning/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstractClasses/Child1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstractClasses/Child2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstractClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstractClasses/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/enums/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/exceptionHandling/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/exceptionHandling/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/exceptionHandling/MyRunTimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/generics/CustomArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/generics/GenericCustomArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/generics/comparision/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/generics/comparision/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Brake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Brakes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Engines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/interfaces/Medias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/lambda/Main.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Completed Theory of LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/ReverseNodesInKGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/AnsCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/AnsCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/CombinationSum39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/CombinationSum39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/CombinationSumII40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/CombinationSumII40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/GenerateParentheses22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/GenerateParentheses22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/NQueens51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/NQueens51.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/NQueensII52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/NQueensII52.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/Permutations46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/Permutations46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BackTracking/PermutationsII47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BackTracking/PermutationsII47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/CanPlaceFlowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/CountingBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/CountingBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/DP/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/ClimbingStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/DP/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/DP/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/DP/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/DP/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/DP/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/FindMinimumInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/FindMinimumInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/Hard/MedianofTwoSortedArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LengthOfLastWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/LetterCombinationsOfAPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/MergeTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/MergeTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/PowofXandN50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/PowofXandN50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/RemovingStarsFromAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/RemovingStarsFromAString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/SortAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/SortAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/StringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/StringToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/SumOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/SumOfTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/WiproQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/WiproQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/ZigzagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet/addTwoNumbersLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/StaticExamples/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/StaticExamples/Introduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/StaticExamples/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/StaticExamples/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/principles/polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/principles/polymorphism/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/singleton/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/singleton/SingletonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TempQtns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TempQtns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListDSA/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListDSA/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListDSA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListDSA/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +97,20 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Leetcode.linkedlist.Main">
+    <configuration name="Leetcode.linkedlist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.Main" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListDSA.Main" />
       <module name="My_DSA" />
@@ -169,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.Cloning.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Cloning.Main" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.MergeTwoSortedLists" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Cloning.*" />
+          <option name="PATTERN" value="Leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.enums.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.enums.Main" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.ReverseList" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.enums.*" />
+          <option name="PATTERN" value="Leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,25 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.enums.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.enums.Main" />
+    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.SortList" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOPS.exceptionHandling.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.exceptionHandling.Main" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.exceptionHandling.*" />
+          <option name="PATTERN" value="Leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode.linkedlist.Main" />
+        <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.OOPS.enums.Main (1)" />
-        <item itemvalue="Application.OOPS.enums.Main" />
-        <item itemvalue="Application.OOPS.Cloning.Main" />
-        <item itemvalue="Application.OOPS.exceptionHandling.Main" />
+        <item itemvalue="Application.SortList" />
+        <item itemvalue="Application.MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +222,10 @@
       <workItem from="1690880256757" duration="6287000" />
       <workItem from="1690893299600" duration="5218000" />
       <workItem from="1690961802695" duration="1992000" />
-      <workItem from="1690964423814" duration="616000" />
+      <workItem from="1690964423814" duration="6098000" />
+      <workItem from="1690987740108" duration="6960000" />
+      <workItem from="1691043175943" duration="14031000" />
+      <workItem from="1691139102781" duration="15811000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -415,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688714280156</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Completed Theory of LinkedList">
+      <created>1690966621753</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1690966621753</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +397,8 @@
     <MESSAGE value="OOPs - encapsulation And abstraction" />
     <MESSAGE value="printf method" />
     <MESSAGE value="StringToInteger solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringToInteger solved" />
+    <MESSAGE value="Completed Theory of LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Theory of LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -458,7 +411,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Leetcode/Hard/MedianofTwoSortedArrays.java</url>
           <line>13</line>
-          <properties class="Leetcode.Hard.MedianofTwoSortedArrays" method="calculateFindMedianSortedArrays">
+          <properties class="Leetcode.Hard.MedianofTwoSortedArrays">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -482,8 +435,31 @@
           </properties>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode/linkedlist/SortList.java</url>
+          <line>29</line>
+          <properties class="Leetcode.linkedlist.SortList" method="sortList2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode/linkedlist/ReorderList.java</url>
+          <line>3</line>
+          <properties class="Leetcode.linkedlist.ReorderList" method="reorderList">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="midReversed" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

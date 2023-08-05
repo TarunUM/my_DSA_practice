@@ -20,6 +20,7 @@ public class LL {
 
         size++;
     }
+
     public void addLast(int data){
         if (tail == null) {
             addFirst(data);
@@ -50,6 +51,24 @@ public class LL {
         node.next = nextNode;
         size++;
     }
+
+    // Insert using recursion
+    public void addRecursion(int index, int data){
+        head = addNode(index, data, head);
+    }
+    private Node addNode(int index, int data, Node node){
+        if (index == 0){
+            if (node == null){
+                tail = new Node(data);
+                return tail;
+            }
+            size++;
+            return new Node(data, node);
+        }
+        node.next = addNode(--index,data,node.next);
+        return node;
+    }
+
     public void deleteFirst(){
         if(head == null){
             System.out.println("List is empty");
@@ -59,6 +78,7 @@ public class LL {
         tail = null;
         size--;
     }
+
     public void deleteLast(){
         if(tail==null ||head == null){
             System.out.println("List is empty");
@@ -149,6 +169,21 @@ public class LL {
         }
         System.out.print("null");
         System.out.println();
+    }
+
+    // Using Recursion
+    public void reverse(){
+        reverseRecursion(head);
+    }
+    private void reverseRecursion(Node node){
+        if(node == tail){
+            head = tail;
+            return;
+        }
+        reverseRecursion(node.next);
+        tail.next = node;
+        tail = node;
+        tail.next = null;
     }
 
     public void size(){
