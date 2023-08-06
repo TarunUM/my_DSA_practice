@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Completed Theory of LinkedList">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ReorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/ReverseNodesInKGroup.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Solved 15 Problems">
+      <change afterPath="$PROJECT_DIR$/src/Files/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Files/write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/SwapNodesInPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/MergeKSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/rotateList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListDSA/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListDSA/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListDSA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListDSA/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/AAAMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/ReverseNodesInKGroup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2K12tREaiIbOd0y9FcLd6x5Ki4z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -97,13 +95,26 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode.linkedlist.Main">
-    <configuration name="Leetcode.linkedlist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.Main" />
+  <component name="RunManager" selected="Application.AAAMain">
+    <configuration name="AAAMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.AAAMain" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Leetcode.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.LongestPalindromicSubstring" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.MergeTwoSortedLists" />
-      <module name="My_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Leetcode.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.ReverseList" />
       <module name="My_DSA" />
@@ -150,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.SortList" />
+    <configuration name="write" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Files.write" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.linkedlist.*" />
+          <option name="PATTERN" value="Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Leetcode.linkedlist.Main" />
+        <item itemvalue="Application.AAAMain" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.write" />
         <item itemvalue="Application.ReverseList" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SortList" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +224,9 @@
       <workItem from="1690987740108" duration="6960000" />
       <workItem from="1691043175943" duration="14031000" />
       <workItem from="1691139102781" duration="15811000" />
+      <workItem from="1691228153207" duration="4295000" />
+      <workItem from="1691233078262" duration="6044000" />
+      <workItem from="1691345731395" duration="2135000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -367,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690966621753</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Solved 15 Problems">
+      <created>1691229107973</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691229107973</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +393,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge and Quick Sorting" />
     <MESSAGE value="Permutations" />
     <MESSAGE value="Permutations And Leet" />
@@ -398,7 +407,8 @@
     <MESSAGE value="printf method" />
     <MESSAGE value="StringToInteger solved" />
     <MESSAGE value="Completed Theory of LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Theory of LinkedList" />
+    <MESSAGE value="Solved 15 Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved 15 Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,6 +462,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode/linkedlist/rotateList.java</url>
+          <line>3</line>
+          <properties class="Leetcode.linkedlist.rotateList" method="rotateRight">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode/linkedlist/SwapNodesInPairs.java</url>
+          <line>3</line>
+          <properties class="Leetcode.linkedlist.SwapNodesInPairs" method="swapPairs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

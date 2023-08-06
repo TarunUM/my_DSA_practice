@@ -1,6 +1,6 @@
 package Leetcode.linkedlist;
 
-public class Main {
+public class AAAMain {
     public static void main(String[] args) {
         ListNode list15 = new ListNode(5);
         ListNode list14 = new ListNode(4, list15);
@@ -8,9 +8,8 @@ public class Main {
         ListNode list12 = new ListNode(2, list13);
         ListNode list1 = new ListNode(1, list12);
 
-        display(list12);
-        ReorderList.reorderList(list12);
-        display(list12);
+        display(list1);
+        display(SwapNodesInPairs.swapPairs(list1));
     }
 
     public static void display(ListNode head){
