@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Solved 15 Problems">
-      <change afterPath="$PROJECT_DIR$/src/Files/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Files/write.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/SwapNodesInPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/rotateList.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Solving Linked List Problems">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/RemoveDuplicatesfromSortedListII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/AAAMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/ReverseNodesInKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/ReverseNodesInKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/AAAMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/AAAMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/hard/MergeKSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +220,7 @@
       <workItem from="1691139102781" duration="15811000" />
       <workItem from="1691228153207" duration="4295000" />
       <workItem from="1691233078262" duration="6044000" />
-      <workItem from="1691345731395" duration="2135000" />
+      <workItem from="1691345731395" duration="6348000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -375,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691229107973</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Solving Linked List Problems">
+      <created>1691347909505</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691347909505</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +409,8 @@
     <MESSAGE value="StringToInteger solved" />
     <MESSAGE value="Completed Theory of LinkedList" />
     <MESSAGE value="Solved 15 Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved 15 Problems" />
+    <MESSAGE value="Solving Linked List Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solving Linked List Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -481,11 +483,21 @@
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Leetcode/linkedlist/RemoveDuplicatesfromSortedListII.java</url>
+          <line>7</line>
+          <properties class="Leetcode.linkedlist.RemoveDuplicatesfromSortedListII" method="deleteDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="midReversed" />
+        <watch expression="checker" />
       </configuration>
     </watches-manager>
   </component>
