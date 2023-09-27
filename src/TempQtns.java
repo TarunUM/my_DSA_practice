@@ -38,26 +38,21 @@ public class TempQtns {
         if(s.length() != t.length()){
             return false;
         }
-
         int[] s1  = new int[26];
         int[] s2  = new int[26];
-
         for(int i=0;i<s.length();i++){
             char currChar = s.charAt(i);
             s1[currChar - 'a']++;
         }
-
-        for(int i=0;i<t.length();i++){
+        for(int i=0;i<t.length();i++) {
             char currChar = t.charAt(i);
             s2[currChar - 'a']++;
         }
-
         for(int i=0;i<26;i++){
             if(s1[i]!=s2[i]){
                 return false;
             }
         }
-
         return true;
     }
 
