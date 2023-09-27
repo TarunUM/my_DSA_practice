@@ -6,69 +6,59 @@ import java.util.Map;
 
 public class TempQtns {
     public static void main(String[] args) {
-//        String name = JOptionPane.showInputDialog("Enter Your Name", "null");
-//        JOptionPane.showMessageDialog(null,"Hello " + name );
-
-//        int age = JOptionPane.showConfirmDialog(null, "value");
-//        JOptionPane.showMessageDialog(null,"You age is " + age );
-
-//        System.out.println(nearDivisor(67,8));
-//        System.out.println(Arrays.toString(productExceptSelf(new int[]{2, 3, 7, 5})));
-
-        repeatedWords();
-
+        System.out.println(isAnagram2("anagram", "nagaram"));
+        System.out.println(isAnagram2("ac", "bb"));
     }
 
-    // Problem-1
-    public static int nearDivisor(int m , int n){
-        double modulo = m % n;
-        float temp = (float) n/2;
-        if(modulo <= temp) return (m/n) * n;
-        else return (((m/(n))+1))*(n);
-    }
-
-    // Problem-2
-    public static int[] productExceptSelf(int[] nums) {
-        int prefix = 1, postfix =1;
-        int[] ans = new int[nums.length];
-        for(int i=0; i<nums.length; i++){
-            ans[i] = prefix;
-            prefix *= nums[i];
+    public static boolean isAnagram(String s, String t) {
+        if(s.length() != t.length()){
+            return false;
         }
-        for(int i=nums.length-1; i>=0; i--){
-            ans[i] *= postfix;
-            postfix *= nums[i];
+        // map ( char , counter )
+        HashMap<Character, Integer> map = new HashMap<>();
+        for(int i=0; i<s.length(); i++){
+            char ch = s.charAt(i);
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        return ans;
-    }
 
-    public static void repeated(){
-        String input1 = "John is cutting the apple with the knife sitting on the bench with the puppy";
-        String input2 = "the";
-        String[] input1Array = input1.split(" ");
-        int count = 0;
-        for(int i=0; i<input1Array.length; i++){
-            if(input1Array[i].equals(input2)) count++;
-        }
-        System.out.println(count);
-    }
-
-    public static void repeatedWords(){
-        String input1 = "John is cutting the apple using the knife sitting on the bench with the puppy";
-        String[] input1Array = input1.split(" ");
-        ArrayList<String> newArray = new ArrayList<>();
-        ArrayList<String> repeatedArray = new ArrayList<>();
-        for (int i=0; i<input1Array.length; i++){
-            if (!newArray.contains(input1Array[i])) newArray.add(input1Array[i]);
-            else {
-                repeatedArray.add(input1Array[i]);
+        for (int i=0; i<t.length();i++){
+            char ch = t.charAt(i);
+            if (!map.containsKey(ch)){
+                return false;
+            }
+            map.put(ch, map.get(ch) - 1);
+            if (map.get(ch) == 0){
+                map.remove(ch);
             }
         }
-        if(repeatedArray.size() == 0) {
-            System.out.println("No Repeated Words");
-        } else {
-            System.out.println(repeatedArray.get(0) + " word is repeated " + (repeatedArray.size()+1) + " times");
+        return map.isEmpty();
+    }
+
+    public static boolean isAnagram2(String s, String t) {
+        if(s.length() != t.length()){
+            return false;
         }
 
+        int[] s1  = new int[26];
+        int[] s2  = new int[26];
+
+        for(int i=0;i<s.length();i++){
+            char currChar = s.charAt(i);
+            s1[currChar - 'a']++;
+        }
+
+        for(int i=0;i<t.length();i++){
+            char currChar = t.charAt(i);
+            s2[currChar - 'a']++;
+        }
+
+        for(int i=0;i<26;i++){
+            if(s1[i]!=s2[i]){
+                return false;
+            }
+        }
+
+        return true;
     }
+
 }

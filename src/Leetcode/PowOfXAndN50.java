@@ -1,8 +1,8 @@
 package Leetcode;
 
-public class PowofXandN50 {
+public class PowOfXAndN50 {
     public static void main(String[] args) {
-        System.out.println(myPow(2, 10));
+        System.out.println(myPow(2, -4));
     }
 
     public static double myPow(double x, int n) {
@@ -22,7 +22,7 @@ public class PowofXandN50 {
 
             x *= x;
             n >>>= 1;
-            //  n=n>>1;
+//            n=n>>1;
         }
 
         return ans;

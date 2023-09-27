@@ -13,24 +13,25 @@ public class CanPlaceFlowers {
         flowerbed2.add(0);
         flowerbed2.add(0);
         flowerbed2.add(1);
-        System.out.println(canPlaceFlowers(flowerbed,2).toString());
+        System.out.println(canPlaceFlowers(flowerbed,2));
         System.out.println(canPlaceFlowers2(flowerbed2,2).toString());
 
 
     }
-    public static returnData canPlaceFlowers(int[] flowerbed, int n) {
-        long start = System.nanoTime();
+    public static boolean canPlaceFlowers(int[] flowerbed, int n) {
         int i = 0;
         int len = flowerbed.length;
         while(i<len && n > 0){
-            if((i==0 || flowerbed[i-1] == 0) && flowerbed[i] == 0 && (i == (len-1) || flowerbed[i+1] == 0)){
+            if((i==0 || flowerbed[i-1] == 0) &&
+                    flowerbed[i] == 0 &&
+                    (i == (len-1) || flowerbed[i+1] == 0)
+            ){
                 i++;
                 n--;
             }
             i++;
         }
-        long end = System.nanoTime();
-        return new returnData((end - start), n == 0);
+        return n == 0;
     }
 
     public static returnData canPlaceFlowers2(ArrayList<Integer> flowerbed, int n) {
