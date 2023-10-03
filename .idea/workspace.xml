@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Solving Linked List Problems">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/Hard/Candy_135.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09-01-2023_02_55__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09-01-2023_02_55__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/CanPlaceFlowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode/PowofXandN50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode/PowOfXAndN50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TempQtns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TempQtns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +98,7 @@
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TempQtns">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.CanPlaceFlowers" />
       <module name="My_DSA" />
@@ -167,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TempQtns" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TempQtns" />
         <item itemvalue="Application.PowOfXAndN50" />
         <item itemvalue="Application.ThreeSumClosest" />
         <item itemvalue="Application.CanPlaceFlowers" />
@@ -239,6 +232,9 @@
       <workItem from="1695565474255" duration="1230000" />
       <workItem from="1695632602520" duration="5549000" />
       <workItem from="1695747749418" duration="2218000" />
+      <workItem from="1695809022140" duration="342000" />
+      <workItem from="1695998456292" duration="7000" />
+      <workItem from="1696319104330" duration="6446000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -394,7 +390,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691347909505</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Solving Linked List Problems">
+      <option name="closed" value="true" />
+      <created>1695809146350</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695809146350</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Solving Linked List Problems">
+      <option name="closed" value="true" />
+      <created>1695809222642</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695809222642</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,15 +521,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BinaryTreesDSA/BinaryTree.java</url>
-          <line>19</line>
-          <properties class="BinaryTreesDSA.BinaryTree" method="insert">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
