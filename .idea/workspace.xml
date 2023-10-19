@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Solving Linked List Problems">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/BST.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Basic BST is Done">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/AVLTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" afterDir="false" />
     </list>
@@ -234,7 +234,9 @@
       <workItem from="1695747749418" duration="2218000" />
       <workItem from="1695809022140" duration="342000" />
       <workItem from="1695998456292" duration="7000" />
-      <workItem from="1696319104330" duration="6446000" />
+      <workItem from="1696319104330" duration="6674000" />
+      <workItem from="1697530828351" duration="142000" />
+      <workItem from="1697708154764" duration="4611000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -406,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695809222642</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Basic BST is Done">
+      <option name="closed" value="true" />
+      <created>1696328780304</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696328780304</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +450,8 @@
     <MESSAGE value="Completed Theory of LinkedList" />
     <MESSAGE value="Solved 15 Problems" />
     <MESSAGE value="Solving Linked List Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solving Linked List Problems" />
+    <MESSAGE value="Basic BST is Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic BST is Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
