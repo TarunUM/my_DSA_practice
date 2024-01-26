@@ -4,10 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="Basic BST is Done">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/AVLTree.java" afterDir="false" />
+    <list default="true" id="004bd78b-fb27-4af4-936d-601193104fd0" name="Changes" comment="AVL Self Balancing Tree Done">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/ConstructBinaryTreefromPreorderandInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/ConvertSortedArraytoBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/Cousins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/DiameterOfTheTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/FindSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/FlattenBinaryTreetoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/KThSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/LowestCommonAncestorofaBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/NetRightPointers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/SerializeandDeserializeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/ZigzagLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/BinaryTree/findPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/linkedlist/SplitLinkedListInParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode/random/ReformData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringBuffer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileHandling/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileHandling/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileHandling/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/largeNumbers/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreesDSA/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TempQtns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TempQtns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +84,19 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DiameterOfTheTree.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializeandDeserializeBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SplitLinkedListInParts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TempQtns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.random.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/tarun/Desktop/selenium&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,7 +106,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2643581&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -92,19 +123,38 @@
       <recent name="OOPS" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fileHandling" />
       <recent name="OOPS.Cloning" />
       <recent name="OOPS.exceptionHandling" />
       <recent name="OOPS.generics" />
       <recent name="Leet" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.CanPlaceFlowers" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ls" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SplitLinkedListInParts">
+    <configuration name="DiameterOfTheTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.BinaryTree.DiameterOfTheTree" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
+          <option name="PATTERN" value="Leetcode.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiameterOfTheTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.BinaryTree.DiameterOfTheTree" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +163,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreesDSA.Main" />
+      <option name="MAIN_CLASS_NAME" value="Streams.Main" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTreesDSA.*" />
+          <option name="PATTERN" value="Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +175,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowOfXAndN50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.PowOfXAndN50" />
+    <configuration name="SerializeandDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.BinaryTree.SerializeandDeserializeBinaryTree" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
+          <option name="PATTERN" value="Leetcode.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializeandDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.BinaryTree.SerializeandDeserializeBinaryTree" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SplitLinkedListInParts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.linkedlist.SplitLinkedListInParts" />
+      <module name="My_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leetcode.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +221,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode.ThreeSumClosest" />
+    <configuration name="TempQtns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TempQtns" />
+      <module name="My_DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode.random.random" />
       <module name="My_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leetcode.*" />
+          <option name="PATTERN" value="Leetcode.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +243,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitLinkedListInParts" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TempQtns" />
-        <item itemvalue="Application.PowOfXAndN50" />
-        <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.CanPlaceFlowers" />
+        <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
+        <item itemvalue="Application.DiameterOfTheTree" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-249ae16d76d6-8f6f4fc2" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -236,7 +326,42 @@
       <workItem from="1695998456292" duration="7000" />
       <workItem from="1696319104330" duration="6674000" />
       <workItem from="1697530828351" duration="142000" />
-      <workItem from="1697708154764" duration="4611000" />
+      <workItem from="1697708154764" duration="5270000" />
+      <workItem from="1697794895574" duration="97000" />
+      <workItem from="1697808233375" duration="2473000" />
+      <workItem from="1697885809314" duration="1814000" />
+      <workItem from="1697888041453" duration="1840000" />
+      <workItem from="1698049170003" duration="179000" />
+      <workItem from="1698130117408" duration="2223000" />
+      <workItem from="1698220809918" duration="5006000" />
+      <workItem from="1698228041662" duration="2999000" />
+      <workItem from="1698314621517" duration="596000" />
+      <workItem from="1698656520606" duration="8580000" />
+      <workItem from="1698724732182" duration="3001000" />
+      <workItem from="1699273633614" duration="442000" />
+      <workItem from="1699426206171" duration="31000" />
+      <workItem from="1699547385649" duration="1117000" />
+      <workItem from="1700465364005" duration="46000" />
+      <workItem from="1700465531603" duration="10917000" />
+      <workItem from="1703866038867" duration="4038000" />
+      <workItem from="1704174936224" duration="12443000" />
+      <workItem from="1704459546064" duration="2841000" />
+      <workItem from="1704889372620" duration="4865000" />
+      <workItem from="1704905546732" duration="9000" />
+      <workItem from="1704905590406" duration="1246000" />
+      <workItem from="1704962052433" duration="5961000" />
+      <workItem from="1705047531198" duration="5441000" />
+      <workItem from="1705119704386" duration="8142000" />
+      <workItem from="1705132760964" duration="64000" />
+      <workItem from="1705132833747" duration="4000" />
+      <workItem from="1705132853258" duration="22000" />
+      <workItem from="1705239550684" duration="5786000" />
+      <workItem from="1705324658721" duration="4300000" />
+      <workItem from="1705574694492" duration="1977000" />
+      <workItem from="1706009997444" duration="29000" />
+      <workItem from="1706188572701" duration="2733000" />
+      <workItem from="1706208482898" duration="3015000" />
+      <workItem from="1706256622871" duration="1261000" />
     </task>
     <task id="LOCAL-00001" summary="Merge and Quick Sorting">
       <created>1673373076544</created>
@@ -416,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696328780304</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="AVL Self Balancing Tree Done">
+      <option name="closed" value="true" />
+      <created>1697714248538</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1697714248538</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +584,8 @@
     <MESSAGE value="Solved 15 Problems" />
     <MESSAGE value="Solving Linked List Problems" />
     <MESSAGE value="Basic BST is Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic BST is Done" />
+    <MESSAGE value="AVL Self Balancing Tree Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="AVL Self Balancing Tree Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
