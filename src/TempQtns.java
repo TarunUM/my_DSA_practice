@@ -5,126 +5,123 @@ import java.util.stream.Collectors;
 
 public class TempQtns {
     public static void main(String[] args) {
-//        System.out.println(playTheGame(new int[]{2,3}));
-//        System.out.println(playTheGame(new int[]{16,17,18}));
-//        LocalDate date = LocalDate.of(2019, Month.MARCH, 30);
-//        System.out.println("Date "+date);
+//        System.out.println(decodeAtIndex("leet2code3",10));
+//        System.out.println(decodeAtIndex2("ha22",5));
+//        System.out.println(decodeAtIndex("a2345678999999999999999",1));
+//        System.out.println(decodeAtIndex("a3",1));
+//        System.out.println(decodeAtIndex("abc",2));
+//        System.out.println(decodeAtIndex("a2b3c4d5e6f7g8h9",10));
+//        System.out.println(decodeAtIndex("a2b3c4d5e6f7g8h9",69282));
+//        System.out.println(decodeAtIndex2("y959q969u3hb22odq595",222280369));
 
-//        System.out.println(findWinningCombinations(new int[] {1,2,3,9}));
-//        System.out.println(findWinningCombinations(new int[] {1,2,2}));
-
-        Scanner sc = new Scanner(System.in);
-
-        int rev = 4865;
-        String ans = "";
-
-        int i = 1;
-        while(rev > 0){
-            int rem = rev % 10;
-            if (i==1){
-                ans = String.valueOf(((rem * 10 * i)/10));
-            } else {
-                ans = ((rem * 10 * i)/10) + " + " + ans;
-            }
-            rev /= 10;
-            i *= 10;
-        }
-
-        System.out.println(ans);
-
-//        System.out.println("---------------");
-//
-//        System.out.println(playTheGame(new int[]{1,2,3,9}));
-//        System.out.println(playTheGame(new int[]{1,2,2}));
-//
-//        System.out.println("---------------");
-//
-//            int N1 = 4;
-//        int[] sticks1 = {1, 2, 3, 9};
-//        int output1 = countWinningCombinations(N1, sticks1);
-//        System.out.println(output1);  // Output: 1
-//
-//        int N2 = 3;
-//        int[] sticks2 = {1, 2, 2};
-//        int output2 = countWinningCombinations(N2, sticks2);
-//        System.out.println(output2);  // Output: 0
+        System.out.println(zigzagDecode("PROBLEMSONE",2));
     }
 
-    public static int findWinningCombinations(int[] sticks) {
-        // Check if the input array is null or empty.
-        if (sticks == null || sticks.length == 0) {
-            return 0;
-        }
+    public static String zigzagDecode(String s, int k) {
+        // P R O B L E M S O N E
+        // 0 1 2 3 4 5 6 7 8 9 10
+        // O M E -> 2 6 10 <==> R B E S N -> 1 3 5 7 9 <==> P L O -> 0 4 8
+        // res - OMERBESNPLO
 
-        // Create a hash table to store the number of sticks of each length.
-        HashMap<Integer, Integer> hashTable = new HashMap<>();
-        for (int stick : sticks) {
-            hashTable.put(stick, hashTable.getOrDefault(stick, 0) + 1);
-        }
+        ArrayList<char[]> list = new ArrayList<>();
 
-        // Count the number of winning combinations for Raymond.
-        int winningCombinations = 0;
-        for (int stick : sticks) {
-            // Check if the current stick is a duplicate.
-            if (hashTable.get(stick) > 1) {
-                // If the current stick is a duplicate, we can only use one of them to create a winning combination.
-                winningCombinations++;
-            } else {
-                // If the current stick is not a duplicate, we can use both of them to create winning combinations.
-                for (int i = 1; i <= stick / 2; i++) {
-                    for (int j = i; j <= stick - i; j++) {
-                        if (hashTable.containsKey(i) && hashTable.containsKey(j) && hashTable.containsKey(stick - i - j)) {
-                            winningCombinations++;
-                        }
-                    }
+        int start = 0;
+        int StringCounter = 0;
+        while(StringCounter < s.length()){
+            if (start == k){
+                for (int i = 0; i < k-2 && StringCounter < s.length(); i++) {
+                    char[] arr = new char[k];
+                    arr[--start-1] = s.charAt(StringCounter);
+                    list.add(arr);
+                    StringCounter++;
                 }
+                start = 0;
             }
-
-            // Remove the current stick from the hash table.
-            hashTable.remove(stick);
+            if (start == 0){
+                char[] arr = new char[k];
+                for (int i = 0; i < k && StringCounter < s.length(); i++) {
+                    arr[i] = s.charAt(StringCounter);
+                    StringCounter++;
+                    start++;
+                }
+                list.add(arr);
+            }
         }
-
-        return winningCombinations;
+        StringBuilder res = new StringBuilder();
+        for (int i = k-1; i >=0; i--) {
+            for (char[] chars : list) {
+                if (chars[i] != 0) {
+                    res.append(chars[i]);
+                }
+            }            
+        }
+        return res.toString();
     }
 
-
-    public static int countWinningCombinations(int N, int[] sticks) {
-        Map<Integer, Integer> frequencyMap = new HashMap<>();
-
-        // Count the frequency of each stick length
-        for (int stick : sticks) {
-            frequencyMap.put(stick, frequencyMap.getOrDefault(stick, 0) + 1);
-        }
-
-        int count = 0;
-
-        // Check for winning combinations
-        for (int frequency : frequencyMap.values()) {
-            count += frequency * (frequency - 1) / 2;
-        }
-
-        return count;
+    // 130. https://leetcode.com/problems/surrounded-regions/ (Surrounded Regions)
+    public void solve(char[][] board) {
+        int m = board.length;
+        int n = board[0].length;
+        ArrayList<int[]> list = new ArrayList<>();
+        list.size();
     }
 
-    public static int playTheGame(int[] arr) {
-        Hashtable<Integer, Integer> map = new Hashtable<>();
+    public static int findSteps(int n, int[] arr, int k){
+        // find the steps in the array where the median of the array is equals to k
+        Arrays.sort(arr);
 
-        for (int i = 0; i < arr.length; i++) {
-            if (map.containsKey(arr[i])) {
-                map.put(arr[i], map.get(arr[i]) + 1);
+        int steps = 0;
+        if (n%2==0){
+            int median = arr[n/2]+arr[n/2]+1;
+        } else {
+            int median = arr[n/2];
+        }
+
+        return steps;
+    }
+
+    public static String decodeAtIndex2(String s, int k) {
+        int prev = 0, temp = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (Character.isDigit(s.charAt(i))) {
+                temp = prev;
+                prev *= (s.charAt(i) - '0');
+                if (k <= prev || temp > prev) { // overflow, temp > prev
+                    if (k % temp != 0 || temp > prev) k %= temp;
+                    else if (k < temp) k = 1;
+                    else k = temp;
+                    i = -1;
+                    prev = 0;
+                }
+            } else if (k == (++prev))
+                return String.valueOf(s.charAt(i));
+        }
+        return "";
+    }
+
+//    880. Decoded String at Index
+    public static String decodeAtIndex(String s, int k) {
+        StringBuilder string = new StringBuilder(s);
+        int counter = 0;
+        while(string.length() > counter){
+            char currChar = string.charAt(counter);
+            if (currChar >= '1' && currChar <= '9'){
+                String firstPart = string.substring(0,counter);
+                String secondPart = string.substring(counter+1);
+
+                StringBuilder newFirstString = new StringBuilder();
+                newFirstString.append(firstPart.repeat((int) currChar - 48));
+
+                if (newFirstString.length() > k-1){
+                    return String.valueOf(newFirstString.charAt(k-1));
+                }
+
+                string.replace(0, string.length(), newFirstString + secondPart);
+                counter += firstPart.length() * ((int) currChar - 49);
             } else {
-                map.put(arr[i], 1);
+                counter++;
             }
         }
-
-        int max = 0;
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > max) {
-                max = entry.getValue();
-            }
-        }
-
-        return max;
+        return String.valueOf(string.charAt(k-1));
     }
-
 }

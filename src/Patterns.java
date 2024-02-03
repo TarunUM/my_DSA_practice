@@ -6,6 +6,7 @@ public class Patterns {
 //        System.out.print("Enter Input : ");
 //        int n = input.nextInt();
 //        pattern20(9);
+        pattern24(5);
         int no = 6;
         for(int i = 0; i < no; i++) {
             for(int j = 0; j < no; j++) {
@@ -367,6 +368,40 @@ public class Patterns {
             }
             for (int col = 1; col <= TotalColsAtRows; col++) {
                 System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void pattern24(int n){
+        // *
+        // * *
+        // *   *
+        // *     *
+        // *   *
+        // * *
+        // *
+        for (int row = 1; row <= 2*n-1; row++) {
+            if (row <= n) {
+                for (int col = 1; col <= n; col++) {
+                    if ((row == 1 && col == 1) ){
+                        System.out.print("* ");
+                    } else if (col == 1 || col == row){
+                        System.out.print("* ");
+                    } else {
+                        System.out.print("  ");
+                    }
+                }
+            } else {
+                for (int col = 1; col <= n; col++) {
+                    if (row == 2*n-1 && col == 1){
+                        System.out.print("* ");
+                    } else if (col == 1 || col == 2*n-row){
+                        System.out.print("* ");
+                    } else {
+                        System.out.print("  ");
+                    }
+                }
             }
             System.out.println();
         }
