@@ -1,7 +1,5 @@
 package OOPS.Cloning;
 
-import java.util.Arrays;
-
 public class Student implements Cloneable{
     public int age;
     public String name;

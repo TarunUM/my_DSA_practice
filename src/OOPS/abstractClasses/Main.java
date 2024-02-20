@@ -6,8 +6,12 @@ public class Main {
     public static void main(String[] args) {
         Child1 child1 = new Child1("abc");
         child1.greeting("child1", 15);
+        child1.greeting("child1 ");
+        System.out.println("-----------------");
         Parent child2 = new Child2("bcd");
         child2.greeting("child2", 15);
+        child2.greeting("child2 ");
+        System.out.println("-----------------");
         ArrayList<Integer> children = new ArrayList<Integer>();
         int i = 0;
         while(i < 10000000) {
