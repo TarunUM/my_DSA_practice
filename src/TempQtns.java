@@ -17,14 +17,19 @@ public class TempQtns {
 	    // System.out.println(Arrays.toString(args));
 	    // System.out.println(zigzagDecode("PROBLEMSONE",2));
 
-        try (Scanner sc = new Scanner(System.in)) {
-            int a = sc.nextInt();
-            System.out.println(a);
-            String b = sc.next();
-            System.out.println(b);
-            String s = sc.nextLine();
-            System.out.println(s);
-        }
+//        try (Scanner sc = new Scanner(System.in)) {
+//            int a = sc.nextInt();
+//            System.out.println(a);
+//            String b = sc.next();
+//            System.out.println(b);
+//            String s = sc.nextLine();
+//            System.out.println(s);
+//        }
+
+
+        Integer a = 1;
+        Integer b = 5;
+        System.out.println(a.compareTo(b)<0);
     }
 
     public static String zigzagDecode(String s, int k) {
